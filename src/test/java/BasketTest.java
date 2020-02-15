@@ -35,7 +35,7 @@ public class BasketTest {
 
 
     @Test
-    public void basket_3_discounts() {
+    public void basket_3discounts() {
 
         Basket basket = new Basket(2,8,1);
         basket.countBasedOnRules();
@@ -44,7 +44,7 @@ public class BasketTest {
     }
 
     @Test
-    public void basket_3_discounts_random() {
+    public void basket_3discounts_checkWrongValue() {
 
         Basket basket = new Basket(2,8,1);
         basket.countBasedOnRules();
